@@ -1,0 +1,12 @@
+{application, greeting_worker,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { greeting_worker_app, []}},
+  {env, []}
+ ]}.
